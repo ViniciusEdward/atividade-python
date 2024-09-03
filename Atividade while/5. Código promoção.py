@@ -2,12 +2,21 @@
 import os 
 os.system("cls || clear")
 
+contador = 0
+tentativa = 3
+promocao = "PROMO2024"
+
 while True:
-    codigo = input("Digite o código promocional: ").upper
-    if codigo == "PROMO2024":
+    codigo = input("Digite o código promocional: ")
+    if promocao == codigo:
         print("Desconto concedido")
         break
+
     else:
+        contador += 1
         print("Tente novamente")
+    if contador == tentativa:
+        print("Número de tentativas excedidas")
+        break
         
         

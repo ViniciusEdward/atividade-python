@@ -1,14 +1,10 @@
-"Crie um programa que ajude um usuário a controlar seus gastos mensais. O programa deve permitir que o usuário insira gastos diários até que o total gasto no mês exceda um orçamento inicial fornecido. O programa deve exibir o total gasto e o valor  excedente."
-import os 
-os.system("cls || clear")
-
 orçamento = float(input("Digite o orçamento inicial para o mês: R$ "))
     
 
 total_gasto = 0.0
 gasto_diario = 0.0
     
-print("\nDigite os gastos diários. Para encerrar, digite um valor negativo.")
+print("Digite os gastos diários. Para encerrar, digite um valor negativo.")
     
 
 while total_gasto <= orçamento:
