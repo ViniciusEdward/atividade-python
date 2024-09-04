@@ -14,3 +14,4 @@ while impares <= 200:
         contador += 1
 
     print(f"numero digitado: {impares}")
+print(f"Vezes repetidas: {contador}")
